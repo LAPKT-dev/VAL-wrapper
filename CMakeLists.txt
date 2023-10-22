@@ -36,6 +36,7 @@ list(APPEND LIST_CMAKE_ARGS
 
 ExternalProject_Add(external_VAL
     GIT_REPOSITORY https://github.com/KCL-Planning/VAL
+    GIT_TAG 3c7a1f330bdab0ba28a4762bb45c3f06c27fb6d4
     SOURCE_DIR ${PROJECT_BINARY_DIR}/tmp/download
     BINARY_DIR ${PROJECT_BINARY_DIR}/pypi_release/package/val_wrapper
     CMAKE_ARGS ${LIST_CMAKE_ARGS}
