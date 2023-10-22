@@ -240,7 +240,7 @@ jobs:
     - name: Install dependencies
       run: |
         py -m pip install --upgrade pip
-        py -m pip install flake8 pytest
+        py -m pip install flake8 pytest build wheel twine
         py -m pip install --upgrade build wheel twine
 
     - name: Configure CMake
